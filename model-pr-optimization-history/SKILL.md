@@ -24,6 +24,21 @@ Read their full diffs and current callers before making optimization conclusions
 API file counts and snippets do not establish complete diff coverage. Existing
 manual audit notes retain their original dates.
 
+## Search by mechanism
+
+When the model family is unknown or the task starts from an optimization
+direction, read the [mechanism guide](mechanisms/README.md). Its provisional
+index deduplicates existing cards and preserves their source locations:
+
+```bash
+python3 scripts/mechanisms.py --category scheduling --limit 20
+python3 scripts/mechanisms.py --category data offload
+```
+
+Return to the full card and current implementation before making conclusions.
+Candidate tags, archived merge status, and performance-related titles are not
+measured benefits. Use `--check` after history updates and `--rebuild` to refresh.
+
 ## Query
 
 Run commands from this directory:

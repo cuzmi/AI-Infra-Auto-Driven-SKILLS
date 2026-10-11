@@ -8,7 +8,7 @@ history across SGLang, vLLM, TensorRT-LLM, and TokenSpeed.**
 
 [![GitHub stars](https://img.shields.io/github/stars/BBuf/AI-Infra-Auto-Driven-SKILLS?style=social)](https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/BBuf/AI-Infra-Auto-Driven-SKILLS?style=flat-square)](https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS/commits/main)
-[![Skills](https://img.shields.io/badge/skills-10-2f80ed?style=flat-square)](#skills)
+[![Skills](https://img.shields.io/badge/skills-11-2f80ed?style=flat-square)](#skills)
 [![PR histories](https://img.shields.io/badge/pr_histories-118-2ea44f?style=flat-square)](#model-pr-history)
 [![KDA-Pilot](https://img.shields.io/badge/sibling-KDA--Pilot-ff7b72?style=flat-square)](https://github.com/BBuf/KDA-Pilot)
 
@@ -32,6 +32,7 @@ Previous release: [v0.1.0](release-notes/v0.1.0.md).
 
 | Skill | Use it when |
 | --- | --- |
+| [`optimization-analysis`](skills/optimization-analysis/) | Choose an optimization direction and analyze saved/shifted costs, validation, and applicability boundaries. |
 | [`llm-serving-auto-benchmark`](skills/llm-serving-auto-benchmark/) | Find the best deployment command for one model across SGLang, vLLM, TensorRT-LLM, TokenSpeed under the same workload, GPUs, and SLA. |
 | [`llm-serving-capacity-planner`](skills/llm-serving-capacity-planner/) | Explain startup memory, KV cache budget, request capacity, or OOM pressure from SGLang/vLLM logs. |
 | [`llm-torch-profiler-analysis`](skills/llm-torch-profiler-analysis/) | Capture or read a torch profiler trace and get kernel, overlap-opportunity, and fusion-opportunity tables checked against a catalog of known SGLang/vLLM/TensorRT-LLM/TokenSpeed/FlashInfer optimizations. |

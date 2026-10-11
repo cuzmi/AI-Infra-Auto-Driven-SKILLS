@@ -1,0 +1,497 @@
+{
+  "candidate_counts": {
+    "compute": 874,
+    "data": 156,
+    "distributed": 165,
+    "host": 111,
+    "overlap": 49,
+    "scheduling": 13
+  },
+  "framework_counts": {
+    "sglang": 2224,
+    "tensorrt_llm": 387,
+    "tokenspeed": 282,
+    "vllm": 1725
+  },
+  "inputs": [
+    {
+      "path": "sglang/deepseek-ocr/README.en.md",
+      "sha256": "3daa9a56219b97f1f02e773789b2e015b9d2476a6ac57d605a8218a5b38afc9c"
+    },
+    {
+      "path": "sglang/deepseek-ocr-2/README.en.md",
+      "sha256": "a9d17bd4e55c555603d17b4e84111753ff53815659dc473d26321b3d6811ec8c"
+    },
+    {
+      "path": "sglang/deepseek-v3-r1/README.en.md",
+      "sha256": "1fbe2f2cbb9a50f8059544c3a9e78f8546d04627010aa8a417a0a19804c259f2"
+    },
+    {
+      "path": "sglang/deepseek-v31/README.en.md",
+      "sha256": "1b91c2d8201b515f44ee304688f2c5d4df3d172c090153789be40ef1a15df10c"
+    },
+    {
+      "path": "sglang/deepseek-v32/README.en.md",
+      "sha256": "3cc84ca3492e4d7add3154f33cbe5474ce1d92764c9f9e4e67720d7905a3ae94"
+    },
+    {
+      "path": "sglang/deepseek-v4/README.en.md",
+      "sha256": "c6070c88babc451161a15cfe8776982b6166a853b933436706b7c7677ecd9160"
+    },
+    {
+      "path": "sglang/deepseek-v41/README.en.md",
+      "sha256": "7a89bc34b9d216f65b79aa3fd2c9ee1921d6f721d5a68937f2173bfff2502a51"
+    },
+    {
+      "path": "sglang/dots3/README.en.md",
+      "sha256": "5326897f182191aea64f40a8d72900408051978ace7e81d0175d874d86c8ea95"
+    },
+    {
+      "path": "sglang/ernie45/README.en.md",
+      "sha256": "c545147b96c9b9049dff7aebd456dd135e37cf8ec581e9aa670e0fb2cc8d97af"
+    },
+    {
+      "path": "sglang/exaone4/README.en.md",
+      "sha256": "413d651b28b03769ce472d141b98645ded736dab1b78587e638721bbddf6e8b9"
+    },
+    {
+      "path": "sglang/gemma4/README.en.md",
+      "sha256": "a66988125e4407caef53e1c8fe2368b7caae125973500b6ea6c51fde0e71dddf"
+    },
+    {
+      "path": "sglang/glm-vlm-ocr/README.en.md",
+      "sha256": "4eb5c39e1da9915f1742a37c69d29a82347db860da67af1891e72e1d64731c2e"
+    },
+    {
+      "path": "sglang/glm45/README.en.md",
+      "sha256": "d4200a118ee0c6188c9443f622452df1f43fbb7c3add4a45cbb99de679fb0ef0"
+    },
+    {
+      "path": "sglang/glm46-glm47/README.en.md",
+      "sha256": "d40666b492c10586aef351b8065044b7047c3730d3d9e0f44151e1148ab8ac6e"
+    },
+    {
+      "path": "sglang/glm5-glm51/README.en.md",
+      "sha256": "e9e9ecf98c4374b5dfd258aaeb7bce3d40fc33f5abdde7efd3ef2013f8a3bb5a"
+    },
+    {
+      "path": "sglang/gpt-oss/README.en.md",
+      "sha256": "c55e32f4d332f390e8d70439e7290336203310b5856b304dc0a74afc4240272a"
+    },
+    {
+      "path": "sglang/hunyuan3-preview/README.en.md",
+      "sha256": "a94d6dbbb04c042d89b4a4b5253fcc1e9b211ef449c120e1ccc8a1f18ee65fe6"
+    },
+    {
+      "path": "sglang/hunyuan4/README.en.md",
+      "sha256": "9a0784085caacbf0f04ac0fcfef98b9c87d44fbd3d466a418648bac80d8bf18f"
+    },
+    {
+      "path": "sglang/inkling/README.en.md",
+      "sha256": "74ec4401896eb7cfe504ff15303d9c634d3b40b6b9cb52f78ce249592c372eb3"
+    },
+    {
+      "path": "sglang/intern-s1/README.en.md",
+      "sha256": "9431a7c87c56eaa2bfcf32a5fa0dbf5686addd9af40cb2a899546177d977c476"
+    },
+    {
+      "path": "sglang/internvl35/README.en.md",
+      "sha256": "418977f78a3d63dffa5bb423c73c1e6a5d698425efb6bc8bd862cd422ffacdfc"
+    },
+    {
+      "path": "sglang/kimi/README.en.md",
+      "sha256": "10471dcf5743f3c16f8601012ddfd4b4f4b46d18594383d19ea9157aae658742"
+    },
+    {
+      "path": "sglang/ling25/README.en.md",
+      "sha256": "e9c345018c74eb05b447d3a49a254be15c5d4b78818a7e0d5d2bd6c1e8caf1b3"
+    },
+    {
+      "path": "sglang/ling3/README.en.md",
+      "sha256": "2e3e4686b41cafa9ad91298874df5784a93debd8101374cf5d80587639cbbf38"
+    },
+    {
+      "path": "sglang/llada21/README.en.md",
+      "sha256": "90a1143df22dfe2d82048bfdb5ae05fdc45bc420028b6a1074123d68f58fe87d"
+    },
+    {
+      "path": "sglang/llama31/README.en.md",
+      "sha256": "b0b531c086cf40591a5e26eb4f2dd8f2eaf63f3908e7018ca0bf040c2eab7f72"
+    },
+    {
+      "path": "sglang/llama4/README.en.md",
+      "sha256": "b604460f3d2c0026c99442bbf6d359ac6ac8273d938bfcca0d633d4b6822c858"
+    },
+    {
+      "path": "sglang/longcat-flash/README.en.md",
+      "sha256": "dfbc55c52d3d89e989ca76e2d6b6e4e9f7404f5362390362afd8d19751585915"
+    },
+    {
+      "path": "sglang/mimo-v2-flash/README.en.md",
+      "sha256": "f57888085816ffc045252139fac4d0617b057800bdf16e40721166df7f171b15"
+    },
+    {
+      "path": "sglang/minimax/README.en.md",
+      "sha256": "cb54efbe660afa79a68ec3feed2b773adfd46d00307f968da89c8856d9732e7d"
+    },
+    {
+      "path": "sglang/mistral-small-4/README.en.md",
+      "sha256": "ffcfe65e23d0b0d39a10ff542eb47671aae09ec2674d1297db2faa91fd10bae0"
+    },
+    {
+      "path": "sglang/mixtral-quark-int4fp8-moe/README.en.md",
+      "sha256": "66f7afd140e7be4a85c2d691e5f356b0134d68a40ddfe245dd0a2512bbc9ac4b"
+    },
+    {
+      "path": "sglang/moss-vl/README.en.md",
+      "sha256": "cd33856d972aec99d70eee8114db8097b81f3b3a3850ed28ada2b75c853297d4"
+    },
+    {
+      "path": "sglang/nemotron-super/README.en.md",
+      "sha256": "a003950432d8ef064bfa696dbe701d7ec0a0481e831c908c1d9c4cf6e1cc2a64"
+    },
+    {
+      "path": "sglang/qwen-vlm-omni-asr/README.en.md",
+      "sha256": "2a0534b0a557ff7a658f2bec6aee94e0fe4bc8b1be151fd0f5e0020f1b78edd5"
+    },
+    {
+      "path": "sglang/qwen3-coder/README.en.md",
+      "sha256": "30af3413cc9a1c2fb38607997b6541b859bb5b72db27368e64d3a9f0486f3522"
+    },
+    {
+      "path": "sglang/qwen3-core/README.en.md",
+      "sha256": "9b078b887112a187e728df514541b49ac26260ee33c3cb7b4238a64f4a3b61f7"
+    },
+    {
+      "path": "sglang/qwen3-next/README.en.md",
+      "sha256": "16c54305c7f15b21b8d3d592512b8f5b859e054c93ca1d5ae8be2f6b14293861"
+    },
+    {
+      "path": "sglang/qwen35/README.en.md",
+      "sha256": "ba4d84750c2c528ffd2e64bca3d80df244065d661881ab130493bd0b42d2bee8"
+    },
+    {
+      "path": "sglang/qwen36/README.en.md",
+      "sha256": "a32fbdd2d5cfcd17256f7494e62d66613071efe227b38ac8b83daa8339970108"
+    },
+    {
+      "path": "sglang/qwen38/README.en.md",
+      "sha256": "7ce54fc7de6c0b096004bf60a1404e45607c87a0df6fa27957ab9c5d76f54364"
+    },
+    {
+      "path": "sglang/qwen4-exp/README.en.md",
+      "sha256": "e3f695d86097ac27fc0716caabaddf8af2f0c7fc61bd0f68f02b844864ee0a98"
+    },
+    {
+      "path": "sglang/ring25/README.en.md",
+      "sha256": "635139415c8364f730f3628d132bc718ae35d172a1072412b22b7e59e2b81adc"
+    },
+    {
+      "path": "sglang/step35/README.en.md",
+      "sha256": "65b962cadd87431aa299db89ee797fb61a47d9e4c8f75611290f30d1627e2294"
+    },
+    {
+      "path": "sglang/step37/README.en.md",
+      "sha256": "06a2781c8e476b20d59b4942c208cad43d0cb4562797d50cdcf44dd96f9f460a"
+    },
+    {
+      "path": "vllm/deepseek-ocr/README.en.md",
+      "sha256": "cd1094ef976a68049d91f51dce56bbc38de7cecf808aaaa177c44729adb275f6"
+    },
+    {
+      "path": "vllm/deepseek-ocr-2/README.en.md",
+      "sha256": "f268b689f25eda6885e5bc3f57866d24a8da3f2a8789f3e2d4fb8cf6300a9818"
+    },
+    {
+      "path": "vllm/deepseek-v3-r1/README.en.md",
+      "sha256": "7d1a1ffa60d9aeed25dfd91c3dd9e18fe498871d0b0f558298865b5188dad3b7"
+    },
+    {
+      "path": "vllm/deepseek-v31/README.en.md",
+      "sha256": "947c14528d02881c0efddffc1f41404872304e2cdf7d05ffb41b4a763cfaca60"
+    },
+    {
+      "path": "vllm/deepseek-v32/README.en.md",
+      "sha256": "341754ae85e004a52d01949d6f265ca4ca176ff70976591afb8bb8b373a5359f"
+    },
+    {
+      "path": "vllm/deepseek-v4/README.en.md",
+      "sha256": "4e2489b538492572f88d911b045fa985906047adce13db26d96396e95423a944"
+    },
+    {
+      "path": "vllm/deepseek-v41/README.en.md",
+      "sha256": "5167aa0663d8b2d86f0608db3f271c4dbfd10909744c0ad129e0ac4191c54360"
+    },
+    {
+      "path": "vllm/dots3/README.en.md",
+      "sha256": "bf094751ebf90ff5b8db761951317e645b38dde5b4aa1539358573e50b7fbe7c"
+    },
+    {
+      "path": "vllm/ernie45/README.en.md",
+      "sha256": "b6a693c711924b8cda04fbe9d05722439d8044c026f4e56489787ced97475bcf"
+    },
+    {
+      "path": "vllm/exaone4/README.en.md",
+      "sha256": "419c7c8fc7f4345d238ec31a6536d562545ebe4d256a1228539d5ffe7a9f72c5"
+    },
+    {
+      "path": "vllm/gemma4/README.en.md",
+      "sha256": "68cf711222b202f92ad7375d93985eeacc02dec3940e3a554777cca38c97f750"
+    },
+    {
+      "path": "vllm/glm-vlm-ocr/README.en.md",
+      "sha256": "c7e5fb09ce65e78148efab9189be5a263b26c931f60de2a70ae759ea46372807"
+    },
+    {
+      "path": "vllm/glm45/README.en.md",
+      "sha256": "d743ae539d5dc3a365cf678b3b6734a5d2534a9fa0c312375b023c7af15bf22b"
+    },
+    {
+      "path": "vllm/glm46-glm47/README.en.md",
+      "sha256": "218a6ae7ce402fc89f737cd6d1244d1c05db4dd53568d27257e6fc73a1ba94da"
+    },
+    {
+      "path": "vllm/glm5-glm51/README.en.md",
+      "sha256": "10f5a8e0409563818be867220195d49066b5c3bfd9b7bf168a880e93a0a9503b"
+    },
+    {
+      "path": "vllm/gpt-oss/README.en.md",
+      "sha256": "8e875321485d6dbdf9ea842db8c6c3fc8c6a8d9934cb2f4df4e71c8fb624520b"
+    },
+    {
+      "path": "vllm/hunyuan3-preview/README.en.md",
+      "sha256": "ca88d3892d9db9566e231ecf975e84d088e55b68c5c21e3b4d35f5b1ead33440"
+    },
+    {
+      "path": "vllm/hunyuan4/README.en.md",
+      "sha256": "93b515dfff4fb35c0857c9bbbef0efafcc79248972c63300d7a54e370087f7dd"
+    },
+    {
+      "path": "vllm/inkling/README.en.md",
+      "sha256": "11ab814786ee36f15f98b9aa25968c9eca70cf2d124cbed84631694a81250a7f"
+    },
+    {
+      "path": "vllm/intern-s1/README.en.md",
+      "sha256": "42e4ec0261d3519d9f141da2a5fd1ed4475e9c1d5bead7994d54e28f22cbea3c"
+    },
+    {
+      "path": "vllm/internvl35/README.en.md",
+      "sha256": "614895f58795ebe28cb8b9d51922946c99460abdbebbcb43700b3ea51bf3ca54"
+    },
+    {
+      "path": "vllm/jina-reranker-m0/README.en.md",
+      "sha256": "c8fb40662fc51073b16cf237cf70db77f1364eab3928d3af267e25d48d18ef1a"
+    },
+    {
+      "path": "vllm/kimi/README.en.md",
+      "sha256": "f0ac4647d52c678677fdd0751a9aca13e69df03cc3376e8f2cf5ce8195d99680"
+    },
+    {
+      "path": "vllm/ling25/README.en.md",
+      "sha256": "cf7dd35c95745897f38f278b5e26ca2bd2c6769a6d67d8b5b14c56c1b376d485"
+    },
+    {
+      "path": "vllm/ling3/README.en.md",
+      "sha256": "a9223aad283094ff594313a2fc6f3cf4ec74f9ccc0b10755498d65fc9932e1a4"
+    },
+    {
+      "path": "vllm/llama31/README.en.md",
+      "sha256": "f998d46598503fa19bbe5ee9b62bb263cbd3fc4bac08efba3a80e11dc6429892"
+    },
+    {
+      "path": "vllm/llama33-70b/README.en.md",
+      "sha256": "ae2d51991331691393983c1f60936b5ad64231e7d8887a13c26a9058ffa60e2b"
+    },
+    {
+      "path": "vllm/llama4/README.en.md",
+      "sha256": "d195713c863dec71282f08b4087b28f1c74c3ab168c902325058de32545e93ea"
+    },
+    {
+      "path": "vllm/longcat-flash/README.en.md",
+      "sha256": "eaa480ea15c203bbf5a7e85789a1b233b74383aa6fd7525fc854d758aaf16990"
+    },
+    {
+      "path": "vllm/mimo-v2-flash/README.en.md",
+      "sha256": "b14d851a9f5de954a755bf2cb4cb9463d4c4e73aa8110a7828d687ceed88ccf9"
+    },
+    {
+      "path": "vllm/minimax/README.en.md",
+      "sha256": "32c3f7522fc2a86f2766c43243aa5ff20087a73d82c0a14471239299d8bc651c"
+    },
+    {
+      "path": "vllm/mistral-small-4/README.en.md",
+      "sha256": "c12a9979aca0b24b0a8192949455246b56d9bdb1d0d5f6b055ae7cf757e86ad4"
+    },
+    {
+      "path": "vllm/mixtral-quark-int4fp8-moe/README.en.md",
+      "sha256": "f58fa31bc9eb48a89ed01172670f037a2b74da0d831a4551843d9985eb10c82b"
+    },
+    {
+      "path": "vllm/nemotron-super/README.en.md",
+      "sha256": "103fd0e5691b5add4a34ea33611f4024d398bea4f778abb59ebce39a15f421f1"
+    },
+    {
+      "path": "vllm/qwen-vlm-omni-asr/README.en.md",
+      "sha256": "da2564fa14783fb8d65884bca17c822041f2ce379fe1dd04b36667c7ffc9d600"
+    },
+    {
+      "path": "vllm/qwen3-coder/README.en.md",
+      "sha256": "baefa62b8f3358fc4b3390d762ae538506fe24b5d9c29b43e7d34ccb898261e1"
+    },
+    {
+      "path": "vllm/qwen3-core/README.en.md",
+      "sha256": "a4c4ccbf07583ef7963266c573b37476aa87d223ad047b2cbb99f6de69ceb87b"
+    },
+    {
+      "path": "vllm/qwen3-next/README.en.md",
+      "sha256": "2d61d55c849b9ad662b10ee265ee9740af30376a1f12de164ad9a4d3b584d380"
+    },
+    {
+      "path": "vllm/qwen35/README.en.md",
+      "sha256": "0993d91563182745121f46e99fe1393ea7d3e3a3029cad4170557d51d5ae5e43"
+    },
+    {
+      "path": "vllm/qwen36/README.en.md",
+      "sha256": "acf96f986655a5212d9aaf5d1b1a6f722c5596dcd10c05fa5b71608d5749e24f"
+    },
+    {
+      "path": "vllm/qwen4-exp/README.en.md",
+      "sha256": "298eced7ff6c8b8c4667acb1e0fdd46d4b9dccb400d408c8a462cd3fdeec8f54"
+    },
+    {
+      "path": "vllm/ring25/README.en.md",
+      "sha256": "4e35a1ae3d2b0ba94a5956a6d8d029d6a615feb238120aaf28219a8c655e8f79"
+    },
+    {
+      "path": "vllm/step35/README.en.md",
+      "sha256": "7219ce098d4738f126edc7a328d2107fae673e15c4da6f6c0b88baf921d7b4f2"
+    },
+    {
+      "path": "vllm/step37/README.en.md",
+      "sha256": "4cb6236c725ef3c3aaa3b47841e74b14fdd189a31877055bc1ff5a96b2db1aa3"
+    },
+    {
+      "path": "tensorrt_llm/deepseek-v3-r1/README.en.md",
+      "sha256": "0493f3e5896e41fe6bff9525af12829c4af733c22e0b442e0d3c2521338202fd"
+    },
+    {
+      "path": "tensorrt_llm/deepseek-v32/README.en.md",
+      "sha256": "f9c8926687f4ffd72df211d91a0080cbcd2178881c43b13c552467a95714b325"
+    },
+    {
+      "path": "tensorrt_llm/deepseek-v4/README.en.md",
+      "sha256": "df2938257a11f296175d799e16294e6ce9d5ab850940ed19f0eae6f02e4f0401"
+    },
+    {
+      "path": "tensorrt_llm/exaone4/README.en.md",
+      "sha256": "994ca90b94427dbc6d62101af6f1bbe42cb26ce3400377fdd5bff0a98dde7533"
+    },
+    {
+      "path": "tensorrt_llm/gemma4/README.en.md",
+      "sha256": "815e6be2163a5f7c0dd9f0c55183a48fc0d7bfc3a529b4a693f526afa258467f"
+    },
+    {
+      "path": "tensorrt_llm/glm5-glm51/README.en.md",
+      "sha256": "beba18e0c41cb628a90dd01c8bca74e3964b2f21576f64aef54110f4f4f8ba1d"
+    },
+    {
+      "path": "tensorrt_llm/gpt-oss/README.en.md",
+      "sha256": "0ec6ea08a79134be4209630cc3d5734bb693fc5ec118bba799501b58a0114373"
+    },
+    {
+      "path": "tensorrt_llm/kimi/README.en.md",
+      "sha256": "2e4ec667cef86ba90fe4b92b21419e53b94a9de9d51a88adf1c88deec4e804c1"
+    },
+    {
+      "path": "tensorrt_llm/minimax/README.en.md",
+      "sha256": "d65ce8b850d713f92ebf8c3d2b2f284ebbec21c11b3f6efda48325fe42848ab0"
+    },
+    {
+      "path": "tensorrt_llm/nemotron-super/README.en.md",
+      "sha256": "1358c7841c3c75cf5744cc94107f48701cb907ce0e826a4e158c8bcfca28a064"
+    },
+    {
+      "path": "tensorrt_llm/qwen3-core/README.en.md",
+      "sha256": "fc8878d12eeb6ef4774a7def4c24a37e92f7e68d1c6de99d1530c44fa9033110"
+    },
+    {
+      "path": "tensorrt_llm/qwen3-next/README.en.md",
+      "sha256": "0559467fdf80f7b9387b292b15d3c5750f91b932058eccf6ec53d9110c61fe68"
+    },
+    {
+      "path": "tensorrt_llm/qwen35/README.en.md",
+      "sha256": "b169c1214dd3f4c850c9f3da5100b6f040e4f5b25d8eb1ca02e2a51d1c730362"
+    },
+    {
+      "path": "tensorrt_llm/qwen4-exp/README.en.md",
+      "sha256": "9adfd9d6809557d67610151f083f0fad269a2ad1d633286c3ab7f35f5cbf0140"
+    },
+    {
+      "path": "tensorrt_llm/step37/README.en.md",
+      "sha256": "d5e03a8d85c16aefdcb468100d142d12840bb236dd02c8d6c09fae9b43fb779a"
+    },
+    {
+      "path": "tokenspeed/deepseek-v3-r1/README.en.md",
+      "sha256": "eb1342a340517b858e54e27677c3e26166d8991d1c5e7b0760f1794a3e77ac09"
+    },
+    {
+      "path": "tokenspeed/deepseek-v4/README.en.md",
+      "sha256": "94f643f35df46119e5d6d9f9e81ba51d4bbc2086ac458d8d7b40e92a3ab20d7b"
+    },
+    {
+      "path": "tokenspeed/deepseek-v41/README.en.md",
+      "sha256": "fc20f4457f2bdb68e805dd8c0e9281674397f5d5d49ca3968f7127e4af3c5c54"
+    },
+    {
+      "path": "tokenspeed/glm5-glm51/README.en.md",
+      "sha256": "4fc7aed92e71125d7ca27554c5b0bebd6f8e4b8824c8e57ea92f5b6aeeb26538"
+    },
+    {
+      "path": "tokenspeed/gpt-oss/README.en.md",
+      "sha256": "c7f6a92f1dad44e68db92d8996042d729b319604c8fe0d1c6053bfbe1143050e"
+    },
+    {
+      "path": "tokenspeed/inkling/README.en.md",
+      "sha256": "b57661e28840908ed4175484c35fae10525163358656b7b8e527fd5f06516d9c"
+    },
+    {
+      "path": "tokenspeed/kimi/README.en.md",
+      "sha256": "e4960144faaad998aa780487af7ad28f80229d7713016dba22d5fb3905c1926b"
+    },
+    {
+      "path": "tokenspeed/longcat-flash/README.en.md",
+      "sha256": "137d3b77cb5c04c39aabefab3dfd25bf6d92ce29496484b031b3e31d7b1ec2e1"
+    },
+    {
+      "path": "tokenspeed/minimax/README.en.md",
+      "sha256": "8fefc8840715ecbb9906b4f0d0e05b5144d39d3bbd0ff37dce9dc7609cf6375d"
+    },
+    {
+      "path": "tokenspeed/nemotron-super/README.en.md",
+      "sha256": "0645b0becc306a1b026d307942594b7be436d4ee70ed1232f705fe823ec53835"
+    },
+    {
+      "path": "tokenspeed/qwen-vlm-omni-asr/README.en.md",
+      "sha256": "9cedd68cf25be2b4740d33a045da5d41a084f173cc5da5f8900041228c35fc7b"
+    },
+    {
+      "path": "tokenspeed/qwen3-core/README.en.md",
+      "sha256": "750c80da28426fa18756a2ead3c07802167192f989c8286abab81682946cb97d"
+    },
+    {
+      "path": "tokenspeed/qwen35/README.en.md",
+      "sha256": "e8cfcfc204898a2f239ab490754bf67a521ec0f16be8a06fe81de9265e48e530"
+    },
+    {
+      "path": "tokenspeed/qwen4-exp/README.en.md",
+      "sha256": "4bb524ddad442173d8bf4ab07c084695e5ad9657df6cbf3e11582efdaca0b8fa"
+    }
+  ],
+  "multiple_candidates": 107,
+  "schema_version": 1,
+  "scope": "English per-PR cards only; Chinese counterparts and timeline-only entries are not separately indexed",
+  "source_cards": 5660,
+  "source_documents": 118,
+  "unclassified": 3358,
+  "unique_prs": 4618
+}

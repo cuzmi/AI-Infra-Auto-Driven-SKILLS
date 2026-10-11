@@ -40,6 +40,13 @@ Read their full diffs and current callers before making optimization conclusions
 API file counts and snippets do not establish complete diff coverage. Existing
 manual audit notes retain their original dates.
 
+A second entry point, the [mechanism index](mechanisms/README.md), groups
+existing cards by compute, overlap, scheduling, data, host control, and
+distributed allocation. Its provisional tags are independent of work type and
+evidence; unmatched records remain unclassified. Run
+`python3 scripts/mechanisms.py --check` after refreshing history, then
+`--rebuild` if needed. This index does not replace or rewrite model dossiers.
+
 Quick queries:
 
 ```bash
