@@ -1,6 +1,6 @@
 ---
 name: optimization-analysis
-description: "Analyze a proposed AI-infrastructure performance change by tracing saved costs, eligibility conditions, added costs, and controlled validation. Use to assess an optimization hypothesis, identify workload factors, or establish its applicability and regression boundaries."
+description: "Analyze a proposed AI-infrastructure performance change by tracing saved costs, eligibility conditions, added costs, and controlled validation. Use to choose an optimization direction, assess a hypothesis, identify workload factors, or establish applicability and regression boundaries."
 ---
 
 # Optimization Analysis
@@ -9,6 +9,17 @@ Turn a proposed change into a causal hypothesis and a bounded validation plan.
 Work from the user's code, trace, PR, or conceptual example. Match the depth to
 the question; a conceptual discussion does not require launching a benchmark.
 Respond in the user's language.
+
+## Choose a direction when none is specified
+
+Use the [mechanism guide](../../model-pr-optimization-history/mechanisms/README.md)
+to consider compute, dependency/overlap, scheduling/granularity, data residency,
+host control, and distributed allocation along the actual request path. Choose
+a promising direction from evidence; do not require a patch in every category
+or broaden a direction the user has already chosen. History tags are discovery
+hints, not verified explanations. Use the
+[historical examples](references/history-cases.md) only when a matching mechanism
+helps formulate the hypothesis.
 
 ## Establish the change
 
