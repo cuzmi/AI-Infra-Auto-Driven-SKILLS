@@ -39,6 +39,7 @@ Previous releases: [v0.1.5](release-notes/v0.1.5.md), [v0.1.0](release-notes/v0.
 | [`torch-profiler-layer-track`](skills/torch-profiler-layer-track/) | Add verified layer-number guides and compact GPU lanes to a trace for Perfetto navigation. |
 | [`model-compute-simulation`](skills/model-compute-simulation/) | Estimate operator shapes, FLOPs, and MFU for a serving shape, or map kernels back to operators. |
 | [`sglang-model-day0-support`](skills/model-optimization/sglang-model-day0-support/) | Turn a new model architecture into an SGLang Day-0 PR DAG, validation matrix, and release lock. |
+| [`sglang-omni-model-day0-support`](skills/model-optimization/sglang-omni-model-day0-support/) | Map a model variant to its SGLang-Omni pipeline and verify its public output for Day-0 release. |
 | [`sglang-prod-incident-triage`](skills/sglang-prod-incident-triage/) | Turn queue growth, timeouts, wrong outputs, crashes, or stalls into a replay and the next debug step. |
 | [`model-architecture-diagram`](skills/model-architecture-diagram/) | Return original public architecture diagrams for popular LLM, VLM, MoE, OCR, and diffusion families. |
 | [`sglang-explainer-video`](skills/sglang-explainer-video/) | Turn an SGLang PR number or a technical article into a Chinese explainer video that fully explains its algorithms and code (length follows the material), with edge-tts narration, word-synced bilingual captions, a cover designed for each video, and ending links to the source and the cookbook, rendered with HyperFrames. |

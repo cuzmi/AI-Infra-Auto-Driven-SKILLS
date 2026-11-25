@@ -8,6 +8,7 @@ documentation under
 - `sglang-model-day0-support/`: evidence-driven workflow for architecture gap
   maps, parallel/kernel adaptation, public PR DAGs, seven release gates, and
   sanitized Day-0 support bundles.
+- [`sglang-omni-model-day0-support/`](sglang-omni-model-day0-support/): map a checkpoint and serving variant to its Omni pipeline and validate the public entry point against the model reference.
 
 Every model PR history should follow the same rule: read the source diff for
 each PR and document motivation, implementation, key code excerpt, and
