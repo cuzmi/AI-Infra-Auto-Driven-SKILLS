@@ -1,0 +1,4 @@
+interface:
+  display_name: "SGLang-Omni Model Day-0 Support"
+  short_description: "Plan and verify model Day-0 support in SGLang-Omni"
+  default_prompt: "Use $sglang-omni-model-day0-support to map this model variant to its Omni pipeline and verify the release claim."
